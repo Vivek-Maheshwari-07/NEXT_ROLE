@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trending Skills - Next Role</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="market.js"></script>
+</head>
+
+<body class="bg-gradient-to-r from-blue-50 to-white text-gray-800 font-sans">
+
+  <!-- Container -->
+  <div class="container mx-auto p-6">
+    
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <h1 class="text-4xl font-bold text-gray-900 leading-tight">Top Trending Skills in Tech</h1>
+      <p class="text-lg text-gray-600 mt-2">Explore the most sought-after skills in the tech industry and jumpstart your career!</p>
+    </header>
+
+    <!-- Search Section -->
+    <div class="flex justify-center items-center mb-8">
+      <div class="flex w-full max-w-xl items-center p-2 bg-white border border-gray-300 rounded-full shadow-lg">
+        <input id="skillInput" type="text"
+          class="flex-grow px-6 py-2 text-lg text-gray-700 rounded-l-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+          placeholder="Search for a skill...">
+        <button onclick="searchSkill()"
+          class="px-6 py-2 bg-blue-500 text-white font-semibold rounded-r-full hover:bg-blue-600 transition duration-300">
+          Search
+        </button>
+      </div>
+    </div>
+
+    <!-- Skills List Section -->
+    <section class="mb-10">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-6">Top Trending Skills</h2>
+      <ul id="skillsList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Skill items will be dynamically inserted here -->
+      </ul>
+    </section>
+
+    <!-- Skill Details Section -->
+    <section id="resultsSection" class="hidden">
+      <h2 class="text-3xl font-semibold text-gray-900 mb-6">Skill Details</h2>
+      <div id="skillDetails" class="p-8 bg-white rounded-xl shadow-lg border border-blue-100">
+        <!-- Skill details will be dynamically inserted here -->
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-6 mt-12">
+    <p class="text-lg">© 2025 NEXT ROLE — All Rights Reserved</p>
+  </footer>
+
+</body>
+
+</html>

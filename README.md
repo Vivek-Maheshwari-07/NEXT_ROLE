@@ -1,69 +1,77 @@
-# NEXT ROLE
+# NEXT ROLE – Smart Career Guidance Platform
 
-### Smart Career Guidance Platform
+NEXT ROLE is a web-based platform designed to help students explore and understand different career paths in the technology industry. The platform provides structured information about various technology roles, the skills required for those roles, and guidance for students who are trying to decide their career direction.
 
-NEXT ROLE is a web-based platform designed to help students explore and understand different career paths in the technology industry. The platform provides structured information about various technical roles, the skills required for those roles, and guidance for students who are trying to decide their career direction.
-
-The goal of this project is to simplify career exploration for students by organizing scattered information into a single easy-to-understand platform.
+The goal of this project is to simplify career exploration by organizing career-related information into a single easy-to-understand platform.
 
 ---
 
-# Project Overview
+## Live Demo
 
-Students entering the technology field often face confusion about which career path to choose. There are many roles such as Software Developer, Data Scientist, Machine Learning Engineer, DevOps Engineer, and many others. However, beginners often struggle to understand:
+You can explore the hosted version of the project here:
+
+https://dallict-hackathon.vercel.app/
+
+---
+
+## Project Overview
+
+Students entering the technology field often face confusion about which career path to choose. There are many roles such as Software Developer, Data Scientist, Machine Learning Engineer, DevOps Engineer, and others.
+
+However beginners often struggle to understand:
 
 • What these roles actually involve
 • What skills are required
-• What technologies they need to learn
-• How to start learning for a particular career
+• What technologies they should learn
+• How to begin their learning journey
 
-NEXT ROLE addresses this problem by creating a structured platform where students can explore different career roles and understand the learning path associated with each one.
+NEXT ROLE aims to solve this problem by providing a platform where students can explore different technology roles and understand the skills and learning paths required for them.
 
 ---
 
-# Key Features
+## Key Features
 
 ### Career Role Exploration
 
-Users can explore different technology career roles and understand what each role involves.
+Users can explore different career roles in technology and understand the responsibilities and expectations of each role.
 
 ### Structured Career Information
 
-Each role includes organized details such as:
+Each role contains organized information such as:
 
 • role description
 • required technical skills
 • recommended technologies
-• possible learning direction
+• learning direction
 
-### Simple and Beginner-Friendly Interface
+### Simple and Clean Interface
 
-The platform focuses on simplicity so that beginners can easily navigate and understand the information.
+The interface is designed to be beginner-friendly so that students can easily navigate the platform.
 
-### Organized Backend Architecture
+### Backend Driven Application
 
-The project follows a structured backend architecture using Node.js and Express.js which helps manage routes, data handling, and application logic.
+The platform uses a Node.js and Express.js backend to handle routing and application logic.
 
 ---
 
-# Tech Stack
+## Tech Stack
 
-## Frontend
+### Frontend
 
 HTML
 CSS
 JavaScript
 
-## Backend
+### Backend
 
 Node.js
 Express.js
 
-## Database
+### Database
 
 MySQL
 
-## Development Tools
+### Tools
 
 Git
 GitHub
@@ -72,69 +80,67 @@ Postman
 
 ---
 
-# Project Architecture
+## Project Architecture
 
-The project follows a simple backend-driven architecture where:
+The application follows a basic full-stack architecture:
 
-Frontend handles user interaction and UI display.
+Frontend handles the user interface and interaction.
 
-Backend (Node.js + Express) manages application logic, routes, and communication with the database.
+Backend (Node.js + Express) manages routing, application logic, and communication with the database.
 
-Database (MySQL) is used to store structured career information and related data.
-
----
-
-# Learning Outcomes
-
-This project helped me gain practical experience in several areas of software development:
-
-• Building backend applications using Node.js and Express
-• Understanding the structure of a full stack web application
-• Designing simple and usable interfaces for information platforms
-• Organizing structured data for real-world problems
-• Working with version control using Git and GitHub
+Database (MySQL) stores structured career information and related data.
 
 ---
 
-# Future Improvements
+## Learning Outcomes
 
-NEXT ROLE is planned to evolve into a more advanced intelligent system with additional features such as:
+This project helped me gain practical experience in:
 
-### AI-Based Career Recommendation
+• Backend development using Node.js and Express
+• Structuring a full stack web application
+• Designing simple user interfaces
+• Organizing structured data for information platforms
+• Using Git and GitHub for version control
 
-Using machine learning models to suggest suitable career paths based on user interests and skills.
+---
+
+## Future Improvements
+
+NEXT ROLE will evolve into a more intelligent system with features such as:
+
+### AI Based Career Recommendations
+
+Using machine learning models to recommend career paths based on user interests and skills.
 
 ### Personalized Career Guidance
 
-Users will be able to input their skills and interests to receive personalized recommendations.
+Users will be able to receive customized suggestions based on their profile.
 
 ### Skill Gap Analysis
 
-The platform will analyze what skills a student currently has and what skills they need to develop for their desired role.
+Identifying missing skills required for a desired career role.
 
 ### Learning Roadmaps
 
-Automatically generated learning paths for different technology careers.
+Automatically generated learning paths for different technology roles.
 
-### Data-Driven Insights
+### Data Driven Insights
 
-Using analytics to understand which career paths students are most interested in.
+Using analytics to understand career trends among students.
 
 ---
 
-# Project Vision
+## Project Vision
 
 The long-term vision of NEXT ROLE is to become an AI-powered career guidance platform that helps students make better career decisions using structured data and intelligent recommendations.
 
 ---
 
-# Author
+## Author
 
 Vivek Maheshwari
 Computer Science Engineering Student
 Charotar University of Science and Technology (CHARUSAT)
-
----
 
 GitHub
 https://github.com/Vivek-Maheshwari-07
@@ -147,4 +153,4 @@ Email
 
 ---
 
-⭐ If you found this project useful or interesting, feel free to star the repository.
+⭐ If you found this project interesting, feel free to star the repository.
